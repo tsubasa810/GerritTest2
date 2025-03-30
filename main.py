@@ -17,3 +17,5 @@ class SDK:
     def get_version(self):
         return f"SDK Version: {self.version}"
     
+    def get_model(self):
+        return f"SDK Model: {self.model}"
