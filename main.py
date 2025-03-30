@@ -13,4 +13,7 @@ class SDK:
     
     def get_information(self):
         return f"SDK Information: {self.model}"
+
+    def get_version(self):
+        return f"SDK Version: {self.version}"
     
